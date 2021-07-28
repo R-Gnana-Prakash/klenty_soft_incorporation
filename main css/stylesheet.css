@@ -1,0 +1,680 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300&family=Paytone+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 1.9% 3%;
+}
+
+header .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .nav img {
+  width: 46%;
+}
+header .nav .login {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          justify-content: flex-end;
+  margin-top: -0.5%;
+}
+
+header .nav .login a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #05034E;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin-right: 15%;
+  text-decoration: none;
+}
+
+header .nav .login button {
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #5856CE;
+  border-radius: 4px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 18px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+header .head {
+  text-align: center;
+  margin-top: 130px;
+}
+
+header .head h1 {
+  margin: auto;
+  font-family: 'paytone one', sans-serif;
+  color: #05034E;
+  font-size: 46px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header .head p {
+  width: 70%;
+  margin: 24px auto;
+  font-family: 'open sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  word-spacing: 2px;
+  color: #202020;
+  text-align: center;
+}
+
+header .head button {
+  margin: 2% auto 3%;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #5856CE;
+  border-radius: 4px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 24px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about {
+  width: 100%;
+  background: rgba(242, 242, 253, 0.5);
+  text-align: center;
+  padding: 3% 0;
+}
+
+.about h1 {
+  margin-bottom: 3%;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: #05034E;
+}
+
+.about p {
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  word-spacing: 2px;
+  text-align: center;
+  color: #202020;
+}
+
+.about .content {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.about .content ul {
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .content ul li {
+  list-style-type: none;
+  width: 40%; 
+  text-align: left;
+}
+.about .content ul li .left::before{
+  content: url(/png\ images/icon1.png);
+  float: left;
+  width: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 184px;
+  height: 100%;
+}
+.about .content ul li:nth-child(1){
+    margin: 0% 3%;
+}
+.about .content ul li:nth-child(2){
+  margin: 0% 3%;
+}
+.about .content ul li .left h3{
+  font-family: 'paytone one', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #05034E;
+}
+.about .content ul li .right h3{
+  font-family: 'paytone one', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #05034E;
+}
+.about .content ul li .left p{
+  text-align: justify;
+  padding: 0;
+  width: 75%;
+  margin-left: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #202020;
+}
+.about .content ul li .right::before{
+  content: url(/png\ images/icon2.png);
+  float: left;
+  width: 50px;
+  padding-right: 20px;
+  padding-top: 5px;
+  height: 100%;
+  padding-bottom: 184px;
+}
+.about .content ul li .right p{
+  text-align: justify;
+  margin-left: 70px;
+  padding: 0;
+  width: 75%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #202020;
+}
+.linkedin h1{
+  padding: 7% 0% 6%;
+  margin: 0% 4%;
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  color: #05034E;
+}
+.linkedin .link .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linkedin .link .box .send{
+  width: 450px;
+}
+.linkedin .link .box .send h4{
+  display: inline;
+  background: #99D0FF;
+  border-radius: 28px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  color: #333333;
+  padding: 9px 20px;
+}
+
+.linkedin .link .box .send h3{
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 39px;
+  color: #05034E;
+}
+.linkedin .link .box .send span{
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: #05034E;
+}
+.linkedin .link .box .send p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: left;
+  color: #202020;
+}
+.linkedin .link .first{
+  margin-left: 8%;
+}
+.linkedin .link .box .requests h3{
+  padding-top: 20px;
+}
+.linkedin .link .box .requests p{
+  margin-top: 10%;
+}
+.linkedin .link .box .mail{
+  margin-right: 5%;
+}
+.linkedin .link .box .mail h4{
+  padding: 9px 18px;
+  background-color: #99FFCE;
+  font-size: 11px;
+}
+.linkedin .link .box .mail h3{
+  padding-top: 25px;
+  line-height: 1;
+  font-size: 33px;
+}
+.linkedin .link .box .mail p{
+  margin-top: 10%;
+}
+.linkedin .link .third{
+  margin-left: 8%;
+}
+.linkedin .link .box .reply h4{
+  padding: 9px 12px;
+  background-color:  #D299FF;
+  font-size: 10px;
+}
+.linkedin .link .box .reply h3{
+  padding-top: 25px;
+  line-height: 1;
+  font-size: 35px;
+}
+.linkedin .link .box .reply p{
+  margin-top: 10%;
+}
+.customer{
+  width: 100%;
+  background-color: #F2F2FD;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.customer h2{
+  padding: 5% auto;
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #05034E;
+}
+.customer .slide_container{
+  width: 100%;
+  margin: 5% 0%;
+  position: relative;
+}
+.customer .slide_container .slides{
+  background-color: #FFFFFF;
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+.customer .slide_container a{
+  position: absolute;
+  margin-top: -22px;
+  top: 50%;
+  margin: -22px 2% 0 2%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.next{
+  right: 0;
+}
+.customer .slide_container .slides .head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.customer .slide_container .slides .about{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #202020;
+}
+.customer .slide_container .slides .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.customer .slide_container .slides .info div{
+  margin-left: 4%;
+}
+.customer .slide_container .slides .info div h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #05034E;
+}
+.customer .slide_container .slides .info div p{
+  font-family: 'open sans',sans-serif;
+}
+.footer{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+.footer h1{
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  color: #05034E;
+}
+.footer p{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #202020;
+}
+.footer button{
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #5856CE;
+  border-radius: 4px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 18px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 750px) {
+  header .nav .login {
+    width: 65%;
+  }
+  header .nav .login a{
+    font-size: 15px;
+  }
+  header .nav .login button{
+    font-size: 10px;
+    padding: 10px 16px;
+  }
+  .head{
+    padding: 10px;
+  }
+  header .head h1{ 
+    font-size: 36px;
+  }
+  .header .head .button{
+    margin-bottom: 20px;
+  }
+  .about {
+    padding: 5% 0%;
+  }
+  .about h1{
+    font-size: 28px;
+  }
+  .about p{
+    padding: 0px 20px;
+    font-size: 15px;
+  }
+  .about .content ul{
+    flex-direction: column;
+  }
+  .about .content ul li{
+    width: 80%;
+  }
+  .about .content ul li:nth-child(1){
+    margin: auto;
+  }
+  .about .content ul li:nth-child(2){
+    margin: auto;
+  }
+  .linkedin h1{
+    font-size: 38px;
+  }
+  .linkedin .link .box{
+    flex-direction: column;
+  }
+  .linkedin .link .box .send{
+    box-sizing: border-box;
+    margin: 2%;
+    width: 60%;
+  }
+  .linkedin .link .box:nth-child(odd){
+    margin-left: 0;
+  }
+  .linkedin .link .box{
+    margin: 5% 2%;
+  }
+  .linkedin .link .box .requests h3{
+    font-size: 28px;
+  }
+  .linkedin .link .box .requests span{
+    font-size: 24px;
+  }
+  .linkedin .link .box .mail h3{
+    font-size: 25px;
+  }
+  .linkedin .link .box .mail span{
+    font-size: 22px;
+  }
+  .linkedin .link .box .reply h4{
+    font-size: 10px;
+  }
+  .linkedin .link .box .reply h3{
+    font-size: 26px;
+  }
+  .linkedin .link .box .reply span{
+    font-size: 22px;
+  }
+  .linkedin .link .box .mail h4{
+    font-size: 10px;
+    background-color: #99FFCE;
+  }
+  .customer h2{
+    font-size: 24px;
+  }
+  .customer .slide_container{
+    margin: 8% auto;
+  }
+  .customer .slide_container a{
+    width: 35px;
+    height: 35px;
+  }
+  .customer .slide_container .slides .info div{
+    font-size: 15px;
+    margin-left: 0%;
+  }
+  .footer h1{
+    font-size: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+  }
+  .footer p{
+    font-size: 18px;
+    margin: 2% 5%;
+  }
+  .footer button{
+    font-size: 10px;
+    margin-top: 3%;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .nav .login {
+    width: 70%;
+  }
+  header .nav .logo{
+    width: 30%;
+  }
+  header .nav .logo img{
+    width: 80%;
+  }
+  header .nav .login a{
+    font-size: 10px;
+  }
+  header .nav .login button{
+    font-size: 8px;
+    padding: 10px 16px;
+  }
+  header .head{
+    padding: 10px;
+    margin-top: 80px;
+  }
+  header .head h1{
+    font-size: 30px;
+  }
+  .header .head .button{
+    margin-bottom: 20px;
+  }
+  .about {
+    padding: 8% 0%;
+  }
+  .about h1{
+    font-size: 24px;
+  }
+  .about p{
+    font-size: 13px;
+  }
+  .about .content ul{
+    margin: auto;
+  }
+  .linkedin h1{
+    font-size: 28px;
+  }
+  .linkedin .link .box .send{
+    box-sizing: border-box;
+    margin: 2%;
+    width: 80%;
+  }
+  .linkedin .link .box:nth-child(odd){
+    margin-left: 0;
+  }
+  .linkedin .link .box{
+    margin: 5% 2%;
+  }
+  .linkedin .link .box .requests h4{
+    padding: 4px 8px;
+    font-size: 9px;
+  }
+  .linkedin .link .box .requests h3{
+    font-size: 19px;
+  }
+  .linkedin .link .box .requests span{
+    font-size: 15px;
+  }
+  .linkedin .link .box .mail h4{
+    font-size: px;
+    padding: 1px 8px;
+  }  
+  .linkedin .link .box .mail h3{
+    font-size: 17px;
+  }
+  .linkedin .link .box .mail span{
+    font-size: 15px;
+  }
+  .linkedin .link .box .reply h4{
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+  .linkedin .link .box .reply h3{
+    font-size: 16px;
+  }
+  .linkedin .link .box .reply span{
+    font-size: 15px;
+  }
+  .linkedin .link .box .mail h4{
+    font-size: 10px;
+    background-color: #99FFCE;;
+  }
+  .customer h2{
+    font-size: 15px;
+  }
+  .customer .slide_container .slides .info img{
+    width: 40px;
+    height: 40px;
+  }
+  .customer .slide_container .slides .head{
+    padding-bottom: 30px;
+  }
+  .customer .slide_container .slides .head img:nth-of-type(odd){
+      width: 25px;
+      height: 25px;
+  }
+  .customer .slide_container .slides .head img:nth-of-type(even){
+    width: 50%;
+  }  
+  .customer .slide_container  a{
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .customer .slide_container a:nth-of-type(odd){
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+  .customer .slide_container a:nth-of-type(even){
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+  .customer .slide_container .slides .info img{
+    padding-left: 35px;
+    padding-right: 20px;
+  }
+  .customer .slide_container .slides .info div{
+    font-size: 13px;
+  }
+  .footer h1{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .footer p{
+    font-size: 15px;
+    margin: 3% 5%;
+  }
+  .footer button{
+    font-size: 10px;
+    margin-top: 3%;
+  }
+}
